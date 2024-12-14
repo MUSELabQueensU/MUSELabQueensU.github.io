@@ -85,6 +85,7 @@
   box-sizing: border-box;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -98,7 +99,17 @@ footer {
     width: 100%;
 }
 
+/* custom css for members page */
+.card-img-top {
+  height: 60% !important ; /* Adjust to split space equally */
+  object-fit: cover; /* Keeps the image cropped neatly */
+}
 
+.card-body {
+  height: 40% !important;  /* Matches the image height */
+  overflow: hidden; /* Prevents overflow issues */
+}
+/* custom css for members page */
 
 .bio-container  {
     margin-right: auto;
