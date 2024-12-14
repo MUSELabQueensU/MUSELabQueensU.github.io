@@ -100,16 +100,41 @@ footer {
 }
 
 /* custom css for members page */
+
+/* Ensures consistent image size and cropping */
 .card-img-top {
-  height: 60% !important ; /* Adjust to split space equally */
-  object-fit: cover; /* Keeps the image cropped neatly */
+  height: 200px; /* Set a consistent height for all images */
+  object-fit: cover; /* Ensures the image is cropped proportionally */
+  width: 100%; /* Ensures the image fills the card's width */
 }
 
+/* Flexbox layout for card body */
 .card-body {
-  height: 40% !important;  /* Matches the image height */
-  overflow: hidden; /* Prevents overflow issues */
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-/* custom css for members page */
+
+/* Ensures the card maintains proper height */
+.card {
+  min-height: 100%;
+}
+
+/* Sticky navbar to stay visible during scrolling */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+/* Specific styling for Mariam Guizani's card */
+.principal-investigator-card {
+  flex-basis: 100%; /* Allow the card to span wider */
+  max-width: 350px; /* Ensure it doesn't grow too large */
+  margin: 0 auto; /* Center the card */
+}
+
 
 .bio-container  {
     margin-right: auto;
