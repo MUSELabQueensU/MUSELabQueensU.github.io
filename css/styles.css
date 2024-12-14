@@ -101,14 +101,15 @@ footer {
 
 /* Custom CSS for all pages */
 
-/* Custom CSS for all pages */
-
 /* Ensures consistent image size and cropping */
 .card-img-top {
   height: 200px; /* Set a consistent height for all images */
-  object-fit: cover; /* Ensures the image is cropped proportionally */
-  width: 100%; /* Ensures the image fills the card's width */
+  object-fit: cover; /* Ensures the image fills the card completely */
+  object-position: top; /* Crops the image from the bottom */
+  width: 100%; /* Ensures the image spans the full width of the card */
 }
+
+
 
 /* Flexbox layout for card body */
 .card-body {
@@ -134,18 +135,24 @@ footer {
   margin: 0; /* Ensures no extra space above the navbar */
 }
 
+
+
+
+
+
 /* Specific styling for PI's card */
 .principal-investigator-card {
   flex-basis: 100%; /* Allow the card to span wider */
-  max-width: 300px; /* Reduce size for alignment */
+  max-width: 300px; /* Adjust width for alignment */
   margin-left: 0; /* Align to the left */
 }
 
 /* Adjusted image height for the PI's card */
 .principal-investigator-card .card-img-top {
-  height: 250px; /* Reduced height for better alignment */
-  object-fit: cover; /* Ensures the image is cropped proportionally */
-  width: 100%; /* Ensures the image fills the card's width */
+  height: 250px; /* Adjust height for PI card */
+  object-fit: cover; /* Fills the card with the image */
+  object-position: top; /* Crops the image more from the bottom */
+  width: 100%; /* Ensures the image spans the full width of the card */
 }
 
 /* Adjusted card body to maintain balance */
@@ -162,8 +169,6 @@ body {
   padding-bottom: 2rem !important; /* Consistent spacing at the bottom of the page */
 }
 
-
-/* Custom CSS for all pages */
 
 
 .bio-container  {
