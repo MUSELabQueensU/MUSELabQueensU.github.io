@@ -11,28 +11,7 @@
   <!-- Custom CSS -->
   <link href="css/styles.css" rel="stylesheet">
   <link href="css/theme.css" rel="stylesheet">
-  <style>
-      .card-body {
-          flex-grow: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-      }
-      .card {
-          min-height: 100%;
-      }
-      .navbar {
-          position: sticky;
-          top: 0;
-          z-index: 1020;
-      }
-      /* Specific styling for Mariam Guizani's card */
-      .principal-investigator-card {
-          flex-basis: 100%; /* Allow the card to span wider */
-          max-width: 350px; /* Ensure it doesn't grow too large */
-          margin: 0 auto; /* Center the card */
-      }
-  </style>
+  
 </head>
 <body>
    <!-- Responsive Navbar -->
@@ -47,7 +26,7 @@
                    <li class="nav-item"><a class="nav-link" href="index.html">MUSE Lab</a></li>
                    <li class="nav-item"><a class="nav-link active" href="members.html">Members</a></li>
                    <li class="nav-item"><a class="nav-link" href="mariamguizani.html">Dr. Guizani</a></li>
-                   <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+                   <li class="nav-item"><a class="nav-link" href="publication.html">Publications</a></li>
                    <li class="nav-item"><a class="nav-link" href="teaching.html">Teaching</a></li>
                    <li class="nav-item"><a class="nav-link" href="service.html">Service</a></li>
                </ul>
@@ -56,23 +35,23 @@
    </nav>
 
    <!-- Principle Investigator Section -->
-   <div class="container">
-       <h1 class="mt-5 mb-4">Principle Investigator</h1>
-       <div class="row justify-content-center g-4">
-           <div class="col-auto principal-investigator-card">
-               <div class="card h-100">
-                   <img src="photos/mariamguizani.jpeg" class="card-img-top" alt="Photo of Mariam Guizani">
-                   <div class="card-body">
-                       <h5 class="card-title">Mariam Guizani</h5>
-                       <h6 class="card-subtitle mb-2 text-muted">Assistant Professor & Connected Minds Member</h6>
-                       <p class="card-text">Email: mariam.guizani@queensu.ca</p>
-                       <p class="card-text">Hobbies: <i>Running, Hiking</i></p>
-                   </div>
-               </div>
-           </div>
-       </div>
-   </div>
-
+<div class="container">
+  <h1 class="mt-5 mb-4">Principal Investigator</h1>
+  <div class="row g-4">
+      <!-- PI Card on the Left -->
+      <div class="col-md-4">
+          <div class="card principal-investigator-card h-100">
+              <img src="photos/mariamguizani.jpeg" class="card-img-top" alt="Photo of Mariam Guizani">
+              <div class="card-body">
+                  <h5 class="card-title">Mariam Guizani</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Assistant Professor & Connected Minds Member</h6>
+                  <p class="card-text">Email: mariam.guizani@queensu.ca</p>
+                  <p class="card-text">Hobbies: <i>Running, Hiking</i></p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
    <!-- Graduate Students Section -->
    <div class="container">
        <h1 class="mt-5 mb-4">Graduate Students</h1>

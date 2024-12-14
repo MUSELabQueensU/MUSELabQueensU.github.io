@@ -99,7 +99,9 @@ footer {
     width: 100%;
 }
 
-/* custom css for members page */
+/* Custom CSS for all pages */
+
+/* Custom CSS for all pages */
 
 /* Ensures consistent image size and cropping */
 .card-img-top {
@@ -121,19 +123,47 @@ footer {
   min-height: 100%;
 }
 
-/* Sticky navbar to stay visible during scrolling */
+/* Fixed navbar for all pages */
 .navbar {
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
   z-index: 1020;
+  background-color: #ffffff; /* Ensures the navbar remains visible */
+  border-bottom: 1px solid #ddd; /* Optional: Adds a subtle border for distinction */
+  margin: 0; /* Ensures no extra space above the navbar */
 }
 
-/* Specific styling for Mariam Guizani's card */
+/* Specific styling for PI's card */
 .principal-investigator-card {
   flex-basis: 100%; /* Allow the card to span wider */
-  max-width: 350px; /* Ensure it doesn't grow too large */
-  margin: 0 auto; /* Center the card */
+  max-width: 300px; /* Reduce size for alignment */
+  margin-left: 0; /* Align to the left */
 }
+
+/* Adjusted image height for the PI's card */
+.principal-investigator-card .card-img-top {
+  height: 250px; /* Reduced height for better alignment */
+  object-fit: cover; /* Ensures the image is cropped proportionally */
+  width: 100%; /* Ensures the image fills the card's width */
+}
+
+/* Adjusted card body to maintain balance */
+.principal-investigator-card .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Adds padding to the top and bottom of every page */
+body {
+  margin: 0;
+  padding-bottom: 2rem !important; /* Consistent spacing at the bottom of the page */
+}
+
+
+/* Custom CSS for all pages */
 
 
 .bio-container  {
