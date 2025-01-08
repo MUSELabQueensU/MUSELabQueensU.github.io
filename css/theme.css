@@ -23,3 +23,30 @@ body {
     color: #fabd0f; /* Queen's Gold */
   }
   /*custom css for site theme */
+
+  /* Custom CSS for publication cards */
+  .publication-card {
+    margin-bottom: 20px;
+  }
+  .publication-card .card-header {
+    background-color: #002452 !important; /* Queen's Blue */
+    color: #ffffff;
+  }
+  .publication-card .card-body {
+    background-color: #ffffff;
+    border: 1px solid #002452; /* Queen's Blue */
+  }
+  .publication-card .year-title {
+    color: #fabd0f; /* Queen's Gold */
+  }
+  .publication-card .publication-title {
+    font-weight: bold;
+  }
+  .publication-card .publication-authors,
+  .publication-card .publication-venue,
+  .publication-card .publication-year {
+    margin-bottom: 5px;
+  }
+  .publication-card .publication-links a {
+    margin-right: 10px;
+  }
