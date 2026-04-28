@@ -3,13 +3,13 @@ body {
     background-color: #f8f9fa;
   }
   .navbar {
-    background-color: #002452 !important; /* Queen's Blue */
+    background-color: #0b4d9a !important; /* Lighter blue for logo contrast */
   }
   .navbar-brand, .nav-link {
     color: #fabd0f !important; /* Queen's Gold */
   }
   .muse-logo {
-    height: 42px;
+    height: 40px;
     width: auto;
     display: block;
   }
