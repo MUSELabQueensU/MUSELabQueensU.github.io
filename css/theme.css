@@ -8,6 +8,11 @@ body {
   .navbar-brand, .nav-link {
     color: #fabd0f !important; /* Queen's Gold */
   }
+  .muse-logo {
+    height: 42px;
+    width: auto;
+    display: block;
+  }
   .card-header {
     background-color: #002452 !important; /* Queen's Blue */
     color: #ffffff;
