@@ -75,7 +75,7 @@
     },
     "added_by": "auto",
     "added_on": "2026-05-10",
-    "abstract": "Open source projects depend on newcomers who stay, yet most leave after a single contribution. Contribution events such as Google Summer of Code, LFX Mentorship, Hacktoberfest, and 24 Pull Requests attract thousands of newcomers each year, but whether they produce lasting contributors remains unclear. We conduct the first matched-cohort study comparing 2,001 event-based and 2,001 organic contributors across 330 projects. Our results reveal three key findings. First, event contributors have significantly higher odds of becoming core contributors (12.1% vs. 9.6%, p < 0.001, OR = 1.31) and stay significantly longer (median 8.2 vs. 4.8 months). Second, each entry mechanism is associated with a fundamentally different engagement rhythm: 68.9% of mentorship contributors sustain Steady weekly activity across their first 12 weeks, whereas 61.0% of non-mentorship contributors exhibit Front-Loading and 57.0% of organic contributors exhibit Intermittent engagement (p < 0.001). Third, Steady engagement is associated with significantly longer retention regardless of group (median 13 vs. 8 months for Front-Loading), yet mentorship contributors who lose their program scaffolding show shorter retention than self-sustained non-mentorship contributors, revealing a mentor-dependency effect. A newcomer's first 12 weeks are strongly indicative of their long-term trajectory."
+    "abstract": ""
   },
   {
     "id": "10.48550/arXiv.2511.14711",
@@ -151,7 +151,7 @@
     "links": {},
     "added_by": "manual",
     "added_on": "2026-05-11",
-    "abstract": "As software systems grow in scale and complexity, understanding the distribution of programming language topics within source code becomes increasingly important for guiding technical decisions, improving onboarding, and informing tooling and education. This paper presents a machine learning workflow that combines a multi-label Support Vector Machine with a sliding window and voting strategy. It enables detailed classification of core programming concepts including operator overloading, virtual functions, inheritance, and templates. Trained using the IBM Project CodeNet dataset, the model achieved an average score of 0.90 across topics and 0.75 in code-topic highlighting, providing empirical insights for code analysis and software engineering research."
+    "abstract": ""
   },
   {
     "id": "elijah-kayode-adejumo-2025-from",
@@ -270,7 +270,7 @@
     "links": {},
     "added_by": "manual",
     "added_on": "2026-05-11",
-    "abstract": "This study examines differences between traditional open-source projects and those focused on social good. Using Mining Software Repository techniques, the study analyzed 290 GitHub projects (199 OSS4SG and 91 conventional OSS) to investigate community dynamics and project characteristics between the two categories, focusing on developer attraction and turnover patterns in these distinct project types."
+    "abstract": ""
   },
   {
     "id": "10.1007/978-1-4842-9651-6_27",
@@ -402,7 +402,7 @@
     },
     "added_by": "auto",
     "added_on": "2026-05-10",
-    "abstract": "Information Architecture (IA) serves as a blueprint for organizing, labeling, and structuring information in websites and information-rich environments. This systematic literature review examined how IA has been applied within Human-Computer Interaction (HCI) research over a decade. The authors queried ACM and IEEE databases, ultimately identifying 25 papers that utilized IA in HCI contexts, supplemented by eight additional papers through background reference searching. Their findings indicate that IA in HCI research spans seven main categories, including IoT, semantic web, and ubiquitous technology, with website design comprising 67% of papers studied. The review concludes that Information Architecture has substantial untapped potential within HCI research and offers promising opportunities for future exploration."
+    "abstract": ""
   },
   {
     "id": "10.1145/3510458.3513020",
@@ -706,7 +706,7 @@
     "links": {},
     "added_by": "auto",
     "added_on": "2026-05-10",
-    "abstract": "Although some previous research has found ways to find inclusivity bugs (biases in software that introduce inequities among cognitively diverse individuals), little attention has been paid to how to go about fixing such bugs. This research hypothesizes that Information Architecture—the organization, structure, and labeling of information—may bridge the gap between identifying inclusivity bugs in information-intensive technology and resolving them. The study investigates whether this approach provides an effective method for addressing biases that create inequitable experiences for individuals with diverse cognitive needs."
+    "abstract": ""
   },
   {
     "id": "mariam-guizani-2018-visual",
@@ -729,6 +729,6 @@
     "links": {},
     "added_by": "auto",
     "added_on": "2026-05-10",
-    "abstract": "This paper addresses multi-criteria conservation planning through interactive multi-objective optimization. The research develops a visual analytics approach using network map visualization to represent both decision and objective spaces while maintaining geographical context between watershed sub-basins. The technique was tested using the WRESTORE decision support system, which employed Interactive Genetic Algorithm technology to help multiple stakeholders design conservation practices like filter strips and cover crops while balancing subjective preferences with quantifiable cost-benefit objectives."
+    "abstract": ""
   }
 ]
